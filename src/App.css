@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+*{
+  margin:0px;padding:0px;box-sizing:border-box;font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+
+background-image:url("headerimg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cc{
+
+max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cc{
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+.mar{
+
+margin-left:30px;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+.la{
+background: white!important;
+border-style: solid;
+margin-left:50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colo{
+color: grey;
+}
+
+.text-center{
+background-color:gray  ;
+}
+
+.top{
+height:50px;
+background-color:gray ;
+}
+
+.png{
+margin-top:20px;
+width: 80px;
+height: 80px;
+
+}
+.font{
+font-size:15px;
+}
+
+.ee{
+width:50%;
+box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+
+.ee:hover{
+transform: translateY(10px);
+background-color:grey;
+}
+
+
+
+.class1:hover{
+
+
+transform: translateY(20px);
+}
+
+
+.class1{
+
+background: white!important;
+border:meduim none;
+padding:20px  !important;
+
+width:320px;
+transition:0.3s;
+
+}
+
+.right-side-bar .content {
+margin: 0px 10px;
+height: 80%;
+}
+
+.right-side-bar .content .user-name, .about-course {
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.466);
+height: 60px;
+border-radius: 5px;
+}
+
+.right-side-bar .content .about-course {
+height: auto;
+}
+
+.right-side-bar .content .about-course .course-title, .issue-date , .issue-id{
+color: purple;
+text-align: center;
+}
+
+.right-side-bar .content .about-course .course-title {
+border: 1px solid purple;
+border-radius: 3px;
+}
+
+
+.right-side-bar .content .about-course .date, .id{
+color: grey;
+}
+
+.right-side-bar .content .buttons{ 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.right-side-bar .content .buttons .btn{ 
+width: 100px;
+color: white;
+border: none;
+background: rgb(111, 18, 177);
+box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.356);
+border-radius: 5px;
+cursor: pointer;
+}
+
+.right-side-bar .content .buttons .btn i{ 
+float: left;
+}
+
+@media all and (max-width: 450px) and (min-width: 300px){
+
+.m1 .one{
+height: 50% !important;
+width: 50%;
+
+}
+}
+
+.foot
+{
+padding-top: 53px!important;
 }
