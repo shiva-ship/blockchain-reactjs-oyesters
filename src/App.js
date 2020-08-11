@@ -14,7 +14,7 @@ class App extends React.Component{
 	return (
 	  <BrowserRouter>
 	  <div className="App">
-		  <Route path="/srvsmn/:page_id" component={Page}/>
+		  <Page />
 
 		  </div>
 		  </BrowserRouter>
